@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         GIT_URL = 'https://github.com/alwinihza/simple-golang.git'
-        BRANCH = 'tes-pipeline'
+        BRANCH = 'pipeline'
         IMAGE = 'my-golang-test'
         CONTAINER = 'my-golang-test-app'
         DOCKER_APP = 'docker'
